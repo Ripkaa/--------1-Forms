@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма с подтверждением и управлением полями</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="mainForm">
+        <button type="button" id="confirmButton">Подтвердить действие</button>
+        
+        <input type="text" id="textField" placeholder="Ваше сообщение...">
+        <input type="checkbox" id="checkBox"> Чекбокс
+        
+        <div>
+            <button type="button" id="disableButton">Заблокировать поле</button>
+            <button type="button" id="enableButton">Разблокировать поле</button>
+        </div>
+        
+        <div id="textFieldContainer">
+            <input type="text" id="text1" class="hoverable" placeholder="Поле 1">
+            <input type="text" id="text2" class="hoverable" placeholder="Поле 2">
+            <input type="text" id="text3" class="hoverable" placeholder="Поле 3">
+        </div>
+
+        <div id="checkboxContainer">
+            <label><input type="checkbox" class="toggleCheckbox"> Поле 1 <input type="text" class="toggleTextField"></label><br>
+            <label><input type="checkbox" class="toggleCheckbox"> Поле 2 <input type="text" class="toggleTextField"></label><br>
+            <label><input type="checkbox" class="toggleCheckbox"> Поле 3 <input type="text" class="toggleTextField"></label><br>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

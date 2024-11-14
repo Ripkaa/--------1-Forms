@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+.hoverable {
+    margin-top: 10px;
+}
+
+.toggleTextField {
+    display: none;
+    margin-left: 10px;
+}
